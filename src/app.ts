@@ -1,5 +1,5 @@
-import express, {Request, Response} from "express"
-import router from "./routes";
+import express from "express"
+import router from "./routes/routes";
 
 function createApp(){
     const app = express();
